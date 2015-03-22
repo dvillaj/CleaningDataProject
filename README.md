@@ -13,8 +13,17 @@ You should create one R script called run_analysis.R that does the following.
 ## Steps
 
 1. Download the [data source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
-2. Put run_analysis.R in the parent folder of UCI HAR Dataset, then set it as your working directory using setwd() function in RStudio.
-3. Run source("run_analysis.R")
+2. Extract it inside your working directory. It will generate a directory named "UCI HAR Dataset"
+2. Put run_analysis.R in your working directory
+3. Run the following sentences:
+4. source("run_analysis.R")
+5. loadUCIDataset()
+
+It will generate 2 files:
+
+* "CIData.txt"<- function(dir = "UCI HAR Dataset",
+                   dataFileName = "UCIData.txt", 
+                   agregateDataFileName = "UCIAgregateData.txt") {
 4. Run , then it will generate a new file tiny_data.txt in your working directory.
 
 

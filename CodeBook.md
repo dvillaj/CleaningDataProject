@@ -88,6 +88,10 @@ fBodyBodyGyroJerkMag-std() | Standard deviation of the body gyroscope signal usi
 subject | Subject who performed the activity
 activity | Name of the activity being performed
 
+## Units
+
+* Velocity measures (body and gravity acceleration) are in radians/second unit
+* Gyroscope measures are in standard gravity unit
 
 # Work / Transforation details
 

@@ -93,13 +93,14 @@ activity | Name of the activity being performed
 
 The R script implements the following steps:
 
-* Loads activities file (activity_labels.txt)
+* Loads the activities file (activity_labels.txt)
 * Loads test and train datasets. Each dataset are inside a directory with the same name.
-  - Loads the subject and activities files
-  - Loads the summary data
-  - Drops the columns that are not needed. Only remains the mean and standard deviation columns
-  - Adds a column name for all the columns
-  - Combine the activity and subject info the the summary data
+  - Loads the subject data (subject file)
+  - Loads the activities data (y file)
+  - Loads the summary data (x file)
+  - Drops the columns not needed. Only remains all the mean and standard deviation columns
+  - Set the column name for all the columns
+  - Combine the activity and subject info into the the summary data
 * Merges train and test datasets in one unique dataset
 * Adds a new column with the activity name
 * Removes the activity code

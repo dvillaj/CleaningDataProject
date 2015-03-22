@@ -90,7 +90,7 @@ activity | Name of the activity being performed
 
 ## Units
 
-* Velocity measures (body and gravity acceleration) are in radians/second unit
+* Velocity measures (body and gravity acceleration) are in radians/second
 * Gyroscope measures are in standard gravity unit
 
 # Work / Transforation details

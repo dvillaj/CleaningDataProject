@@ -16,8 +16,10 @@ You should create one R script called run_analysis.R that does the following.
 - Extract it inside your working directory. It will generate a directory named "UCI HAR Dataset"
 - Put run_analysis.R in your working directory
 - Run the following sentences:
-                   source("run_analysis.R")
-                   loadUCIDataset()
+```R
+source("run_analysis.R")
+loadUCIDataset()
+```
 
 
 ## Dependencies

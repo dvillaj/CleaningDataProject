@@ -1,6 +1,6 @@
 # CodeBook
 
-This is a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data.
+This file describes the variables, the data, and any transformations or work performed to clean up the data.
 
 ## DataSource
 
@@ -89,12 +89,12 @@ subject | Subject who performed the activity
 activity | Name of the activity being performed
 
 
-# Transformation details
+# Work / Transforation details
 
 The R script implements the following steps:
 
 * Loads the activities file (activity_labels.txt)
-* Loads test and train datasets. Each dataset are inside a directory with the same name.
+* Loads test and train datasets. Each dataset is inside a directory with the same name.
   - Loads the subject data (subject file)
   - Loads the activities data (y file)
   - Loads the summary data (x file)

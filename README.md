@@ -34,4 +34,4 @@ File       | Description
 :----------|:-----------------
 README.md|The README file for this repo
 run_analysis.R|The R script processes the data and generated the required tidy dataset
-CodeBook.md|A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data
+CodeBook.md|This file describes the variables, the data, and any transformations or work performed to clean up the data.

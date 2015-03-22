@@ -12,25 +12,17 @@ You should create one R script called run_analysis.R that does the following.
 
 ## Steps
 
-1. Download the [data source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
-2. Extract it inside your working directory. It will generate a directory named "UCI HAR Dataset"
-2. Put run_analysis.R in your working directory
-3. Run the following sentences:
-4. source("run_analysis.R")
-5. loadUCIDataset()
-
-It will generate 2 files:
-
-* "CIData.txt"<- function(dir = "UCI HAR Dataset",
-                   dataFileName = "UCIData.txt", 
-                   agregateDataFileName = "UCIAgregateData.txt") {
-4. Run , then it will generate a new file tiny_data.txt in your working directory.
+- Download the [data source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
+- Extract it inside your working directory. It will generate a directory named "UCI HAR Dataset"
+- Put run_analysis.R in your working directory
+- Run the following sentences:
+                   source("run_analysis.R")
+                   loadUCIDataset()
 
 
-Dependencies
+## Dependencies
 
-run_analysis.R file will help you to install the dependencies automatically. It depends on reshape2 and data.table.
-This repo contains the following files and folders.
+No dependencies
 
 run_analysis.R The r script processes the data and generated the required tidy dataset for submission.
 submit.txt The text file contains the required tidy dataset for submission.

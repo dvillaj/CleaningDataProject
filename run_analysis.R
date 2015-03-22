@@ -1,6 +1,5 @@
 loadUCIDataset <- function(dir = "UCI HAR Dataset",
-                   dataFileName = "UCIData.txt", 
-                   agregateDataFileName = "UCIAgregateData.txt") {
+                   dataFileName = "UCIAgregateData.txt" ) {
   
   # Loads, tidy up and write a UCI HAR Dataset.
   # Combine together test and train data
@@ -183,10 +182,6 @@ loadUCIDataset <- function(dir = "UCI HAR Dataset",
   
   #Removing the activity code. The activity name remains
   all_merge <- all_merge[, names(all_merge) != "y"]
-
-  #Wrinting data
-  cat("Writing data to file", dataFileName, "...\n")
-  write.table(all_merge, file = dataFileName, row.names=FALSE)
   
   #Aggregating data by subject and activity
   agregateData <- aggregate(all_merge[, 1:66], list(all_merge$subject, 
@@ -196,8 +191,8 @@ loadUCIDataset <- function(dir = "UCI HAR Dataset",
   colnames(agregateData)[1:2] <- c("subject", "activity")
   
   #Writing the aggregate data
-  cat("Writing aggregate data to file", agregateDataFileName, "...\n")
-  write.table(agregateData, file = agregateDataFileName, row.names=FALSE)
+  cat("Writing aggregate data to file", dataFileName, "...\n")
+  write.table(agregateData, file = dataFileName, row.names=FALSE)
   
   #All done
 }

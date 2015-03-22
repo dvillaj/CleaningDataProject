@@ -17,8 +17,8 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 The dataset include a file named 'UCIAgregateData.txt' with the mean by subject and activity of the following variables:
 
-Column | Description
-------------------------------
+Column            | Description
+------------------|----------------------------------------------------------------------------------------------------
 tBodyAcc-mean()-X | Mean of the X direction of the body linear acceleration signal (time domain signal)
 tBodyAcc-mean()-Y | Mean of the Y direction of the body linear acceleration signal (time domain signal)
 tBodyAcc-mean()-Z | Mean of the Z direction of the body linear acceleration signal (time domain signal)
